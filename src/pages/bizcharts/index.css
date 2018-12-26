@@ -1,0 +1,12 @@
+.bizchart-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bizchart-box>div {
+  width: 50%;
+}
+
+.bizchart-box>div>div:first-child {
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.ToolTip {
+  background: red;
+  font-size: 16px;
+  border:  1px solid #ddd;
+  padding: 10px;
+}

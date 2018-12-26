@@ -1,0 +1,32 @@
+.example-box {
+  padding: 0 30px;
+}
+
+.redux-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ex-test {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.border-1px {
+  position: relative;
+}
+
+.border-1px:before {
+  content: "";
+  pointer-events: none;
+  /* 防止点击触发 */
+  box-sizing: border-box;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: 0;
+  top: 0;
+  border: 1px solid #D9D9D9;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+}

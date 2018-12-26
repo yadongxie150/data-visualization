@@ -1,0 +1,8 @@
+.echarts-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.echarts-box>div {
+  text-align: center;
+}

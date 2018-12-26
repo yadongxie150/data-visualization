@@ -1,0 +1,23 @@
+.nav {
+  margin-bottom: 40px;
+}
+
+.nav>ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  list-style: none;
+  box-shadow: 0 2px 8px #f0f1f2;
+  margin: 0;
+  padding: 0;
+}
+
+.nav>ul>li>a {
+  text-decoration: none;
+  color: #314659;
+}
+
+.nav>ul>li>a.active {
+  color: #1890ff;
+}

@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-react", ["@babel/preset-env", {
+    "useBuiltIns": "usage", // 不用手动 import @babel/polyfill
+  }]],
+  "plugins": ["@babel/plugin-proposal-class-properties"],
+}

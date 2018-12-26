@@ -1,0 +1,8 @@
+.recharts-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recharts-box>div {
+  margin-bottom: 50px;
+}

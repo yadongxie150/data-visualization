@@ -1,0 +1,41 @@
+{
+  "name": "react-setsail",
+  "version": "1.0.0",
+  "description": "use react and webpack to start a project",
+  "main": "index.js",
+  "author": "xieyadong",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.10.1",
+    "bizcharts": "^3.4.1",
+    "classnames": "^2.2.6",
+    "echarts": "^4.2.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "recharts": "^1.4.2",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "redux-saga": "^0.16.2",
+    "redux-thunk": "^2.3.0"
+  }
+}
