@@ -6,7 +6,6 @@ import {
   Tooltip,
   Legend,
 } from "bizcharts";
-import DataSet from "@antv/data-set";
 
 class StackChart extends React.Component {
   render() {

@@ -27,6 +27,7 @@
     "@antv/data-set": "^0.10.1",
     "bizcharts": "^3.4.1",
     "classnames": "^2.2.6",
+    "core-js": "2",
     "echarts": "^4.2.1",
     "react": "^16.8.2",
     "react-dom": "^16.6.3",
